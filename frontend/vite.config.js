@@ -7,7 +7,7 @@ export default defineConfig({
   server:{
     proxy:{
       '/api':{
-        target:'https://shopeasy-8rra.onrender.com'
+        target:'https://api.jamvanta.com'
       }
     }
   }

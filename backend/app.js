@@ -16,7 +16,7 @@ dotenv.config({path:'backend/config/config.env'})
 
 // Middleware
 app.use(cors({
-    origin: ['http://localhost:5173','https://jamvanta.com', 'http://localhost:3000', 'https://shop>
+    origin: ['https://jamvanta.com'],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
@@ -36,5 +36,3 @@ app.use("/api/v1",contact)
 app.use(errorHandleMiddleware)
 
 export default app;
-
-

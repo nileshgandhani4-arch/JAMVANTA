@@ -11,8 +11,8 @@ function OrderConfirm() {
     const {shippingInfo,cartItems}=useSelector(state=>state.cart);
     const {user}=useSelector(state=>state.user)
     const subtotal=cartItems.reduce((acc,item)=>acc+item.price*item.quantity,0)
-    const tax=subtotal*0.18
-    const shippingCharges=subtotal>500?0:50
+    const tax=subtotal*0.01
+    const shippingCharges=subtotal>500?0:10
     const total=subtotal+tax+shippingCharges;
     const navigate=useNavigate()
     

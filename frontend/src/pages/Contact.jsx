@@ -37,7 +37,7 @@ function Contact() {
 
   return (
     <>
-      <PageTitle title="Contact Us - ShopEasy" />
+      <PageTitle title="Contact Us - Jamvanta" />
       <Navbar />
       <div className="contact-container">
         <h1>Contact Us</h1>
@@ -67,7 +67,7 @@ function Contact() {
               <Email className="info-icon" />
               <div>
                 <h3>Email</h3>
-                <p>support@shopeasy.com</p>
+                <p>nileshgandhani4@gamil.com</p>
               </div>
             </div>
           </div>

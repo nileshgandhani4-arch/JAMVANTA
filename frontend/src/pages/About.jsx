@@ -7,18 +7,18 @@ import PageTitle from '../components/PageTitle';
 function About() {
   return (
     <>
-      <PageTitle title="About Us - ShopEasy" />
+      <PageTitle title="About Us - Jamvanta" />
       <Navbar />
       <div className="about-container">
         <h1>About Us</h1>
         <div className="about-content">
           <p>
-            Welcome to <strong>ShopEasy</strong>, your number one source for all things groceries and daily needs. 
+            Welcome to <strong>Jamvanta</strong>, your number one source for all things groceries and daily needs. 
             We're dedicated to giving you the very best of products, with a focus on dependability, customer service, and uniqueness.
           </p>
           <p>
-            Founded in 2026, ShopEasy has come a long way from its beginnings. When we first started out, our passion for 
-            "Eco-friendly and sustainable products" drove us to do tons of research so that ShopEasy can offer you 
+            Founded in 2026, Jamvanta has come a long way from its beginnings. When we first started out, our passion for 
+            "Eco-friendly and sustainable products" drove us to do tons of research so that Jamvanta can offer you 
             the world's most advanced organic grocery marketplace. We now serve customers all over the city and are thrilled 
             that we're able to turn our passion into our own website.
           </p>
@@ -28,7 +28,7 @@ function About() {
           </p>
           <br />
           <p>Sincerely,</p>
-          <p><strong>The ShopEasy Team</strong></p>
+          <p><strong>The Jamvanta Team</strong></p>
         </div>
       </div>
       <Footer />

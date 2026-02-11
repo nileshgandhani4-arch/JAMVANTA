@@ -13,7 +13,7 @@ export const sendEmail = async (options) => {
                 {
                     From: {
                         Email: process.env.MJ_SENDER_EMAIL,
-                        Name: process.env.MJ_SENDER_NAME || 'ShopEasy'
+                        Name: process.env.MJ_SENDER_NAME || 'Jamvanta'
                     },
                     To: [
                         {

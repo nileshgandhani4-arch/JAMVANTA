@@ -104,7 +104,7 @@ function Products() {
                         </div>
                         <div className="hero-right">
                             <div className="hero-pricing">
-                                <span className="hero-price-main">₹{products[0].price}/yr</span>
+                                <span className="hero-price-main">₹{products[0].price}</span>
                                 <span className="hero-price-retail">Retail ₹{(products[0].price * 1.2).toFixed(2)}/yr</span>
                             </div>
                             <Link to={`/product/${products[0]._id}`}>

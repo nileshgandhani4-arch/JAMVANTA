@@ -27,8 +27,8 @@ function ProductRow({ product }) {
 
       <div className="product-row-right">
         <div className="product-row-pricing">
-            <span className="row-price-current">₹{product.price}/yr</span>
-            <span className="row-price-retail">Retail ₹{retailPrice}/yr</span>
+            <span className="row-price-current">₹{product.price}</span>
+            <span className="row-price-retail">Retail ₹{retailPrice}</span>
         </div>
         <Link to={`/product/${product._id}`}>
             <button className="row-add-cart-btn">
